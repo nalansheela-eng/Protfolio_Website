@@ -1,5 +1,3 @@
-
-
 :root {
      --bg: #0E1E1D;
      --surface: #153230;
@@ -100,7 +98,8 @@ nav .wrap {
      color: var(--muted);
 }
 
-.navlinks a:hover {
+.navlinks a:hover,
+.navlinks a.active {
      color: var(--mint);
 }
 
