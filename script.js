@@ -4,7 +4,7 @@ window.addEventListener("load", () => {
           yearEl.textContent = new Date().getFullYear();
      }
 
-     const roles = ["Data Analytics Intern", "Aspiring Data Engineer", "AI & DS Student"];
+     const roles = ["Web developer", "Aspiring Data Engineer", "AI & DS Student"];
      const roleLine = document.getElementById("roleLine");
      const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
